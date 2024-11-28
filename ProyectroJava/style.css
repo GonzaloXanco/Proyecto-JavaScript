@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    padding: 20px 20px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.izquierdo{
+    display: flex;
+    height: 65px;
+    width: 20%;
+    margin-left: 20%;
+}
+
+.centro{
+    display: flex;
+    width: 60%;
+    margin-top: 10px;
+}
+
+.itemsNav{
+    display: flex;
+    list-style: none;
+    font-weight:bolder;
+    font-size: 14px;
+    gap: 30px;
+    
+}
+
+.botonesNav{
+    text-decoration: none;
+    color:black;
+}
+
+.derecho{
+    display: flex;
+    gap: 20px;
+    width: 20%;
+    margin-right: 20%;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.carousel {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+.carousel-images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.titulo{
+    width: 20%;
+    margin-left: 20%;
+}
+
+.botonHero{
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 12px;
+    margin-top: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.botonHero:hover{
+    background-color: white;
+}
+
+.take{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.take:hover{
+    color: black;
+}
+
+.parrafo{
+    font-size: 18px; 
+}
+
+.LearnMore{
+    margin-left: 40%;
+    text-decoration: none;
+}
+
+.ContenedorTarjetas{
+    margin-left: 15%;
+}
+
+.ContenedorFomulario{
+    background-color: #f2ede4;
+}
+
+.titulosForm{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.parrafoForm{ 
+    font-size: 18px;
+}
+
+.formulario{
+    width: 50%;
+    margin-left: 25%;
+}
+
+.mb-3{
+    border: solid;
+}
+
+.menuFooter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.oculto {
+    display: none;
+  }
+  
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    
+  }
+
+  .contenido{
+   padding-left: 30%;
+   padding-top: 30px;
+  }
